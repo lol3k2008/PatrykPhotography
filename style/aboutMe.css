@@ -1,0 +1,187 @@
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-weight: bold;
+    color: #7749e0;
+}
+h1 p{
+    font-size:  1.4rem;
+    color: rgb(61, 61, 61);
+}
+
+
+.somethingAboutMe{
+display: flex;
+width: 100vw;
+min-height: 50vh;
+padding-bottom: 1px;
+
+}
+.text{
+    width: 40%;
+    padding: 10px 30px;
+}
+
+.myPortret{
+  background-image: url('/photo/myPhoto.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+}
+
+/* ------------------------------- */
+
+.styleOfPhotography{
+    width: 100vw;
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 2px dotted  #7649e0ad;
+}
+.card{
+    background-color: #e6e2e2;
+    border: transparent;
+    padding-top: 30px;
+}
+.cardText{
+    padding: 30px 50px;
+}
+.styleOfPhotography .card .header{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #7749e0;
+}
+.styleOfPhotography .card .text{
+    color: rgb(61, 61, 61);
+    margin: 0 auto;
+}
+
+
+
+.experience{ 
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    width: 100vw;
+    padding: 10px 0;
+}
+
+.headerIco{
+    background-image: url('/img/ExperiencePNG.png');
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+ 
+}
+.headerText{
+    font-weight: bold;
+    color: #7749e0;
+    font-size: 1.6rem;
+}
+
+/* -------------------------------- */
+.columns{
+    display: flex;
+justify-content: center;
+    width: 100vw;
+}
+.column{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.column ul{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+}
+.column ul li{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+.icoOk{
+    background-image: url('/img/ła-eko.png');
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+/* ---------------------------------------- */
+
+.ico{
+     background-position: center;
+    background-size: cover;
+    width: 50px;
+    
+}
+.icoLoc{
+    background-image: url('/img/loctionPNG.png');
+    height: 60px;
+   
+}
+
+.icoTel{
+    background-image: url('/img/telPNG.png');
+
+  height: 50px;
+}
+
+.icoMail{
+    background-image: url('/img/mailPNG.png');
+   height: 50px;
+}
+
+.contantMe{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+text-align: center;
+width: 100vw;
+}
+.contantMe h2{
+    padding: 10px;
+}
+.contantMe p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.icons{
+width: 100%;
+display: flex;
+justify-content: space-around;
+
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+
+
+.ico{
+    padding: 10px;
+    margin: 10px;
+    transition: transform .3s;
+}
+.ico:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* -------MEDIA------- */
+
