@@ -25,7 +25,7 @@ padding-bottom: 1px;
 }
 
 .myPortret{
-  background-image: url("photo/myPhoto.jpg");
+  background-image: url("../photo/myPhoto.jpg");
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -70,7 +70,7 @@ padding-bottom: 1px;
 }
 
 .headerIco{
-    background-image: url('img/ExperiencePNG.png');
+    background-image: url('../img/ExperiencePNG.png');
     background-size: cover;
     background-position: center;
     width: 100px;
@@ -108,7 +108,7 @@ justify-content: center;
     padding: 10px;
 }
 .icoOk{
-    background-image: url('img/ła-eko.png');
+    background-image: url('../img/ła-eko.png');
     background-position: center;
     background-size: cover;
     width: 25px;
@@ -126,19 +126,19 @@ justify-content: center;
     
 }
 .icoLoc{
-    background-image: url('img/loctionPNG.png');
+    background-image: url('../img/loctionPNG.png');
     height: 60px;
    
 }
 
 .icoTel{
-    background-image: url('img/telPNG.png');
+    background-image: url('../img/telPNG.png');
 
   height: 50px;
 }
 
 .icoMail{
-    background-image: url('img/mailPNG.png');
+    background-image: url('../img/mailPNG.png');
    height: 50px;
 }
 
