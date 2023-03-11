@@ -132,13 +132,13 @@ justify-content: center;
 }
 
 .icoTel{
-    background-image: url("img/telPNG.png");
+    background-image: url("../img/telPNG.png");
 
   height: 50px;
 }
 
 .icoMail{
-    background-image: url("img/mailPNG.png");
+    background-image: url("../img/mailPNG.png");
    height: 50px;
 }
 
