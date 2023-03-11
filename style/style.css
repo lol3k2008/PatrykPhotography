@@ -11,7 +11,7 @@
         background-color: #e6e2e2;
         display: flex;
         flex-direction: column;
- 
+ Overflow: hidden;
     }
 
     
