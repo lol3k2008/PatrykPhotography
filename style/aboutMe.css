@@ -25,7 +25,7 @@ padding-bottom: 1px;
 }
 
 .myPortret{
-  background-image: url('/photo/myPhoto.jpg');
+  background-image: url('photo/myPhoto.jpg');
   background-position: center;
   background-size: cover;
   width: 50%;
