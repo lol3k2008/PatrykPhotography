@@ -13,7 +13,7 @@
         background-color: #e6e2e2;
         display: flex;
         flex-direction: column;
-	overflow: hidden;
+
     }
 
 
@@ -22,7 +22,7 @@
         width: 100vw;
         display: flex;
         justify-content: space-around;
-
+		overflow: hidden;
     }
     
     .logo {
