@@ -5,6 +5,7 @@
     }
     
     body {
+        position: relative;
         font-size: 16px;
         font-family: 'Sono', sans-serif;
         background-color: #e6e2e2;
@@ -12,6 +13,7 @@
         flex-direction: column;
  
     }
+
     
     header {
         width: 100vw;
@@ -53,7 +55,66 @@
         box-shadow: 0 0 10px #7749e0;
 
     }
-    
+
+    /* -----------------------------------NAV_MOBILE----------------------------------- */
+    .navMobile{
+        display: none;
+        position: absolute;
+        right: -200px;
+        top: 0px;
+        width: 200px;
+        min-height: 300px;
+        height: 50vh;
+        z-index: 400;
+        background-color: #cfc2ec;
+        transition: right .4s;
+    }
+    .navMobile .hamb{
+        position: absolute;
+        top: 10px;
+        left: -38px;
+        width: 35px;
+        height: 35px;
+        border: transparent;
+        background-color: transparent;
+        cursor: pointer;
+    }
+   .line{
+        display: block;
+        height: 3px;
+        background-color: #7749e0;
+        text-align: center;
+        margin: 4px 0;
+        transition: width .3s;
+    }
+    .lineOne{
+        width: 20%;
+    }
+    .lineTwo{
+        width: 35%;
+    }
+    .lineThre{
+        width: 80%;
+    }
+
+    .navMobile ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    .navMobile ul li a{
+        display: flex;
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        padding: 10px;
+        color: #7749e0;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
     .navDesktop ul {
         display: flex;
         justify-content: center;
@@ -135,39 +196,44 @@ z-index: 100;
 }
 .logo{
     display: none;
-}
-      }
-    @media (max-width: 850px) {
+}}
+
+
+
+@media (max-width: 850px) {
 .navDesktop{
     display: none;
-    
+    }
+    .navMobile{
+    display: flex;
 }
 .logo{
-        display: none;
-    }
-    .columns{ 
+    display: none;
+}
+.columns{ 
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
 .column ul li{
-      border-bottom: dotted 2px #7749e0;
+    border-bottom: dotted 2px #7749e0;
+    
+}}
 
-  }
-      }
 
-
-      @media (max-width: 770px) {
-      
-h2{
-    font-size: 1.3rem;
-    font-weight: bold;
+@media (max-width: 770px) {
+    
+    h2{
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .block p{
+        font-size: .8rem;
+    }
+.carousel{
+    margin-top: 40px;
 }
-.block p{
-    font-size: .8rem;
-}
-
               }
 
       /* ----------------------------------- gallery----------------- */
@@ -208,4 +274,14 @@ img {
 .grid-wrapper .big {
 	grid-column: span 2;
 	grid-row: span 2;
+}
+
+
+
+/* ----------------------WIRTUAL_CLASS------------------ */
+.showHideNav{
+    right: 0;
+}
+.HambBtnW100p{
+width: 100%;
 }
