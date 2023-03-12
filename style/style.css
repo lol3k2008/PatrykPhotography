@@ -238,14 +238,19 @@ min-height: 60vh;
 @media (max-width: 770px) {
     
     h2{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         font-weight: bold;
     }
     .block p{
-        font-size: .8rem;
+        font-size: .6rem;
+    }
+    .block .ico{
+       transform: scale(.8);
+        
     }
 .carousel{
     margin-top: 40px;
+    width: 100vw;
 }
               }
 

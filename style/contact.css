@@ -4,6 +4,8 @@ form, input, select, textarea {
     padding:0; 
     color:#ffffff;
 }
+
+
 form{
     width: 100vw;
    min-height: 500px;
@@ -74,3 +76,27 @@ div.box .button:hover{
     background-color: #713377;
     border: double #705d72;
 }
+
+
+@media (max-width: 770px) {
+    form{
+
+       min-height: 50vh;
+      
+    }
+    div.box {
+       padding: 5px;
+        width: 400px;
+        min-width: 200px;
+        min-height: 350px;
+              }
+ div.box .wpis {
+
+        min-width:120px;
+            }
+            div.box .button	{
+           
+                padding: 4px 10px;
+               
+            }
+        }
